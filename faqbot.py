@@ -71,8 +71,8 @@ SAP_HANA_CLOUD_USER     = "DBADMIN"
 SAP_HANA_CLOUD_PASSWORD = "Vector1123581321"
 
 # SAP Generative AI Hub logon credentials, hardcoded only for sandboxing
-os.environ["AICORE_CLIENT_ID"]      = "sb-40bb47eb-0714-4b75-805e-fe810131c773!b365736|aicore!b540"
-os.environ["AICORE_CLIENT_SECRET"]  = "5b042012-466e-433d-93a8-691e68f2e45f$6Vqgq61NUVKUaWz1C966loBKHfAlJzozjYQu4JXwOfk="
+os.environ["AICORE_CLIENT_ID"]      = "CLIENT_ID"
+os.environ["AICORE_CLIENT_SECRET"]  = "CLIENT_SECRET"
 os.environ["AICORE_AUTH_URL"]       = "https://genai-ce27qaki.authentication.eu10.hana.ondemand.com/oauth/token"
 os.environ["AICORE_RESOURCE_GROUP"] = "default"
 os.environ["AICORE_BASE_URL"]       = "https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com/v2"  
